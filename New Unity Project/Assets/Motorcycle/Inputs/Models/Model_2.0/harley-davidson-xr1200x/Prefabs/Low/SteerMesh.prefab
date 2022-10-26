@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4439028395185678325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8573436475528034368}
+  - component: {fileID: 3292051347083869124}
+  - component: {fileID: 4853109539543839725}
+  m_Layer: 0
+  m_Name: Steer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8573436475528034368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4439028395185678325}
+  m_LocalRotation: {x: -0.6532716, y: 0.07970394, z: -0.06945157, w: 0.7497067}
+  m_LocalPosition: {x: -0.0039477535, y: 0.411, z: -0.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583954315663912975}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -75.57, y: 57.534, z: -56.697}
+--- !u!33 &3292051347083869124
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4439028395185678325}
+  m_Mesh: {fileID: -4640979610182688294, guid: 94272fab99b570646b9d28ced96ae277, type: 3}
+--- !u!23 &4853109539543839725
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4439028395185678325}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 66dfe35951a8d834d882f31cfe628162, type: 2}
+  - {fileID: 2100000, guid: d1ef694117066634ebfdebc85d7baaf9, type: 2}
+  - {fileID: 2100000, guid: 706d42d3fd66fca499419b9424176383, type: 2}
+  - {fileID: 2100000, guid: 1f747e3c713c78b46aa3c086502b4d3e, type: 2}
+  - {fileID: 2100000, guid: c9a59518d9d32964f97c82831e791a91, type: 2}
+  - {fileID: 2100000, guid: c910ee92f893eef41821007d039a1e05, type: 2}
+  - {fileID: 2100000, guid: 6259c0081b901e5498c480b6fff7c72b, type: 2}
+  - {fileID: 2100000, guid: ca218fea8eb89844ab32da677720ec36, type: 2}
+  - {fileID: 2100000, guid: 0fe733055c02ac1409cec0db751036a9, type: 2}
+  - {fileID: 2100000, guid: 8a01f78f390e3cb49b1de27579d5a913, type: 2}
+  - {fileID: 2100000, guid: 9ed2fd49e2592ce4d92cfef5b9f3de6f, type: 2}
+  - {fileID: 2100000, guid: 1a1c3086d0aaaaa459ff98fdb824cd1d, type: 2}
+  - {fileID: 2100000, guid: 97247800ef124ec42be15a4b93d707f2, type: 2}
+  - {fileID: 2100000, guid: 906ac9bbee268084e87de8e99119aafa, type: 2}
+  - {fileID: 2100000, guid: 5b3d8ea8b70ad464388e27466c7a64d9, type: 2}
+  - {fileID: 2100000, guid: 81c74a8b2390d2c4286d9b15b0735ef4, type: 2}
+  - {fileID: 2100000, guid: de4a6c839f5e8824ca23bb0a07af2415, type: 2}
+  - {fileID: 2100000, guid: 29d25f1719687a042b95d119143c2489, type: 2}
+  - {fileID: 2100000, guid: 8ec4aef85ed60ad468b1848be4766b81, type: 2}
+  - {fileID: 2100000, guid: da24b99d2f5b30246a2c420b393749af, type: 2}
+  - {fileID: 2100000, guid: b54081e9dc505064db30f757b96756fa, type: 2}
+  - {fileID: 2100000, guid: 312162caf6915044b94307b173aff268, type: 2}
+  - {fileID: 2100000, guid: d840cb78744fbbd438a55c5d9a5b0240, type: 2}
+  - {fileID: 2100000, guid: 2e832f63316e8cd46b99e68fa416d01c, type: 2}
+  - {fileID: 2100000, guid: d06159bec4fabdb498dbca110922fd98, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &5460819968902503167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4583954315663912975}
+  m_Layer: 0
+  m_Name: SteerMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4583954315663912975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460819968902503167}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8573436475528034368}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
