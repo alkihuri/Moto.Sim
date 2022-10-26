@@ -89,7 +89,7 @@ public class MotoEngine : VehicleEngineBase, IVehicleEngine
         {
             if (Speed < 10)
             {
-                _rearWheel.motorTorque = ((EngineTorque * _motorInput) / 3f) * _enginePowerCurve.Evaluate(Speed);
+                _rearWheel.motorTorque = ((EngineTorque * _motorInput) / 3f);
             }
             else
             {
