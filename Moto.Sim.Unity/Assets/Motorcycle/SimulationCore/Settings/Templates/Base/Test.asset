@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f965f1dfcde8847b498ba6931ffc51, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  ACCELARATION_100_Km_H:
+    value: 5
+    definition: 
+  MAX_SPEED_ACCELEARTION:
+    value: 15
+    definition: 
+  MAX_SPEED:
+    value: 250
+    definition: 
+  MAX_STEER_ANGLE:
+    value: 45
+    definition: 
+  MIN_STEER_ANGLE:
+    value: 5
+    definition: 
+  SPEED_FOR_MAX_STEER_ANGLE:
+    value: 30
+    definition: 
+  SPEED_FOR_MEDIAN_STEER_ANGLE:
+    value: 50
+    definition: 
+  SPEED_FOR_MIN_STEER_ANGLE:
+    value: 80
+    definition: 
+  TIME_FOR_BURNOUT:
+    value: 5
+    definition: 
+  WHILLIE: 0
+  MOTO_MASS:
+    value: 400
+    definition: 
